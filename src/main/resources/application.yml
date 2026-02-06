@@ -1,0 +1,30 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://yugtank05_db_user:T2GK2d3c0KDQesNG@cluster0.cfaiep0.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+  redis:
+    host: localhost
+    port: 6379
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: yugtank05@gmail.com
+    password: myec cwny nsiu vxkb
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+logging:
+  level:
+    org.springframework.boot: DEBUG
+    org.springframework.core.io: TRACE
+    org.springframework.core.env: DEBUG
+    org.springframework.boot.context.config: DEBUG
+
+weather:
+  api:
+    key: d2877f958eb6622144ace6079ecadfa5
