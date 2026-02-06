@@ -11,7 +11,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: yugtank05@gmail.com
-    password: myec cwny nsiu vxkb
+    password: 
     properties:
       mail:
         smtp:
@@ -27,4 +27,4 @@ logging:
 
 weather:
   api:
-    key: d2877f958eb6622144ace6079ecadfa5
+    key: 
