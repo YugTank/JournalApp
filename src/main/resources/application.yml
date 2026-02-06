@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://yugtank05_db_user:T2GK2d3c0KDQesNG@cluster0.cfaiep0.mongodb.net/?appName=Cluster0
+      uri: mongodb+srv://yugtank05_db_user:{PASSWORD}@cluster0.cfaiep0.mongodb.net/?appName=Cluster0
       database: journaldb
       auto-index-creation: true
   redis:
